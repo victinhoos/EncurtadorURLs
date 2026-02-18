@@ -36,6 +36,7 @@ public class EncurtadorURLModel {
     }
 
     public void setEncurtador(String Encurtador) {
+
         this.encurtador = Encurtador;
     }
 
@@ -44,6 +45,7 @@ public class EncurtadorURLModel {
     }
 
     public void setData(LocalDate data) {
+
         this.data = data;
     }
 }
