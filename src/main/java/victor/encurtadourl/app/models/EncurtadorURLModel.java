@@ -12,7 +12,7 @@ public class EncurtadorURLModel {
     private String idURL;
 
     private String url;
-    private String encutrador;
+    private String encurtador;
     private LocalDate data;
 
     public String getIdURL() {
@@ -31,12 +31,12 @@ public class EncurtadorURLModel {
         this.url = url;
     }
 
-    public String getEncutrador() {
-        return encutrador;
+    public String getEncurtador() {
+        return encurtador;
     }
 
-    public void setEncutrador(String encutrador) {
-        this.encutrador = encutrador;
+    public void setEncurtador(String Encurtador) {
+        this.encurtador = Encurtador;
     }
 
     public LocalDate getData() {
