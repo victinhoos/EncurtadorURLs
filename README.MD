@@ -41,15 +41,6 @@ Uma API RESTful desenvolvida em Java com Spring Boot que tem como objetivo encur
 * **Banco de Dados em Memória: Redis:** Camada de Cache e Analytics. Utilizado para processamento de métricas complexas em tempo real, absorvendo o impacto de operações pesadas (como contagem de cliques e visitantes) e reduzindo drasticamente a carga de leitura/escrita no MongoDB.
 
 * **Infraestrutura: Docker Compose:** Ambiente conteinerizado para padronização e isolamento dos serviços (API, MongoDB e Redis).
-## 💬 Observação sobre o repositório
-
-Ah, bem observado! Eu tinha colocado um link genérico no passo a passo anterior, mas o correto é exatamente esse do seu repositório:
-
-https://github.com/victinhoos/EncurtadorURLs.git
-
-Sobre o “faltou o quê?”: para o seu README ficar **100% à prova de recrutadores e desenvolvedores Sêniores**, faltou apenas mostrar **como usar a API**.
-
-Quem entra no seu GitHub precisa saber quais são as rotas e como mandar os dados sem ter que abrir o código Java para ler. Nós chamamos isso de **Documentação dos Endpoints**.
 
 ---
 
