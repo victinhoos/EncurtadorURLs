@@ -30,7 +30,7 @@ Uma API RESTful desenvolvida em Java com Spring Boot que tem como objetivo encur
 
 * **Ranking em Tempo Real (Top 100):** Utiliza a estrutura *Sorted Sets* (ZSet) do banco de dados em memória **Redis** para computar cada clique nos links. A rota `GET /ranking` devolve as 100 URLs mais acessadas instantaneamente, garantindo altíssima performance sem onerar o banco de dados principal (MongoDB).
 
-* **Métricas de Visitantes Únicos (Analytics):** Implementa o algoritmo avançado **HyperLogLog** no Redis para rastrear endereços de IP únicos que acessam os links curtos. Permite consultar o engajamento real de uma URL na rota `GET /{codigoCurto}/estatisticas` com um consumo de memória RAM minúsculo e tempo de execução constante $O(1)$, suportando milhões de acessos.
+* **Métricas de Visitantes Únicos (Analytics):** Implementa o algoritmo  **HyperLogLog** no Redis para rastrear endereços de IP únicos que acessam os links curtos. Permite consultar o engajamento real de uma URL na rota `GET /{codigoCurto}/estatisticas` com um consumo de memória RAM minúsculo e tempo de execução constante $O(1)$, suportando milhões de acessos.
 
 ## 🛠️ Tecnologias e Arquitetura
 
